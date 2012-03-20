@@ -14,12 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "jenkins_cap"
-  gem.homepage = "http://github.com/Druwerd/jenkins_cap"
+  gem.name = "gnm-jenkins_cap"
+  gem.homepage = "https://github.com/GorillaNation/gnm-jenkins_cap"
   gem.license = "MIT"
   gem.summary = %Q{adds Jenkins tasks to Capistrano}
   gem.description = %Q{add Jenkins tasks to Capistrano}
-  gem.email = "Druwerd@gmail.com"
+  gem.email = "configurationmanagement@gorillanation.com"
   gem.authors = ["Dru Ibarra"]
   # dependencies defined in Gemfile
 end
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "jenkins_cap #{version}"
+  rdoc.title = "gnm-jenkins_cap #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
