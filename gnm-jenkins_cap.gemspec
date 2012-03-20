@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "jenkins_cap.gemspec",
+    "gnm-jenkins_cap.gemspec",
+    "lib/gnm-jenkins_cap.rb",
     "test/helper.rb",
     "test/test_jenkins_cap.rb",
     "test/test_settings.yml.template"
